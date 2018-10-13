@@ -38,8 +38,15 @@
       ]
     }
   },
-  "files": {},
+  "files": {
+    "loopback#static": {
+      "params": "$!../client/www/"
+    } 
+  },
   "final": {
+    "./middleware/routing": {
+      "params": {}
+    },
     "loopback#urlNotFound": {}
   },
   "final:after": {
